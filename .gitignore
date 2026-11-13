@@ -1,2 +1,17 @@
+# dependencies and build output
 node_modules
 dist
+
+# local environment and secrets (none today; keeps future API keys out of Git)
+.env
+.env.*
+!.env.example
+
+# Netlify CLI local state
+.netlify
+
+# logs and OS clutter
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
